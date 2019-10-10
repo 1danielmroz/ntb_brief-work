@@ -1,0 +1,13 @@
+
+
+<div class="card" *ngIf="product">
+  <img src="{{product.picture}}" alt="{{product.alt}}" style="width:10%">
+    <ul>
+      <li *ngFor="let Pictograms of product.pictograms" class="list_in_line"><img src="{{Pictograms.url}}" alt="{{Pictograms.tooltip}}" title="{{Pictograms.tooltip}}"></li>
+    </ul>
+    <em> {{product.group_type}}</em>
+    <hr>
+    <h4>{{product.title}}</h4>
+    <hr>
+    <em>{{product.info}}</em>
+</div>

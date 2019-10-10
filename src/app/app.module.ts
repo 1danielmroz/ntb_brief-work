@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ProductViewComponent } from './product-view/product-view.component';
+import { ProductTileViewBoxComponent } from './product-tile-view-box/product-tile-view-box.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProductViewComponent,
+    ProductTileViewBoxComponent
   ],
   imports: [
     BrowserModule,
