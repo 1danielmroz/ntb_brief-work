@@ -7,6 +7,7 @@ import { ProductViewComponent } from './product-view/product-view.component';
 import { ProductTileViewBoxComponent } from './product-tile-view-box/product-tile-view-box.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FrontPageComponent } from './front-page/front-page.component';
+import { GroupSearchComponent } from './group-search/group-search.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FrontPageComponent } from './front-page/front-page.component';
     ProductViewComponent,
     ProductTileViewBoxComponent,
     DashboardComponent,
-    FrontPageComponent
+    FrontPageComponent,
+    GroupSearchComponent
   ],
   imports: [
     BrowserModule,
