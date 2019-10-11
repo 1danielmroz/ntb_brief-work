@@ -1,7 +1,7 @@
-<div class="card" *ngIf="product">
+<div class="card" *ngIf="product" (click)="onSelect(product)" >
   <em>{{product.group_type}}</em>
   <hr>
-  <img src="{{product.picture}}" alt="{{product.alt}}" style="object-fit: contain;">
+  <img src="{{product.Pictures}}" alt="{{product.alt}}" style="object-fit: contain;">
   <em>{{product.info}}</em>
   <hr>
   <ul>
@@ -10,3 +10,5 @@
   <hr>
   <h4>{{product.title}}</h4>
 </div>
+
+<app-product-view [product]="selectedProduct"></app-product-view>
