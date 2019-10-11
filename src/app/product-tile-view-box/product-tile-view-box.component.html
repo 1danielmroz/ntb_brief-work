@@ -7,8 +7,9 @@
   <ul>
     <li *ngFor="let Pictograms of product.pictograms" class="list_in_line"><img class="pictograms" src="{{Pictograms.url}}" alt="{{Pictograms.tooltip}}" title="{{Pictograms.tooltip}}"></li>
   </ul>
-  <hr>
-  <h4>{{product.title}}</h4>
+  <div class="box_title">
+      <p>{{product.title}}</p>
+  </div>
 </div>
 
 <app-product-view [product]="selectedProduct"></app-product-view>

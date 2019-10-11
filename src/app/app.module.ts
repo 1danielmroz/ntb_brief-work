@@ -9,6 +9,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { FrontPageComponent } from './front-page/front-page.component';
 import { GroupSearchComponent } from './group-search/group-search.component';
 import { ProductSliderComponent } from './product-slider/product-slider.component';
+import { DebuggerComponent } from './debugger/debugger.component';
+import { CollectionComponent } from './collection/collection.component';
+import { InspirationComponent } from './inspiration/inspiration.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ProductSliderComponent } from './product-slider/product-slider.componen
     DashboardComponent,
     FrontPageComponent,
     GroupSearchComponent,
-    ProductSliderComponent
+    ProductSliderComponent,
+    DebuggerComponent,
+    CollectionComponent,
+    InspirationComponent
   ],
   imports: [
     BrowserModule,
