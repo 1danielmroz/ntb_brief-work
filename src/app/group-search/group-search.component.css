@@ -1,5 +1,6 @@
 .group-search{
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
+  padding-left: 1%; 
 }

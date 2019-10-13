@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+
+}
+
+.column-left{
+  float: left;
+  width: 65%;
+  position: relative;
+  padding: 1%;
+}
+
+.column-right{
+  padding: 1%;
+  width: 35%;
+}
+
+.in-left{
+  padding: 1%;
+  position: absolute;
+  bottom: 1%;
+  width: 100%;
+}
+
+.in-Right-top{
+  padding: 1%;
+  float: top;
+  height: 50%;
+}
+
+.in-Right-bottom{
+  padding: 1%;
+  float: top;
+  height: 50%;
+}
+
+.ins-title{
+  padding: 1%;
+  position: absolute;
+  border: 0;
+}
+
+.view-more{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
