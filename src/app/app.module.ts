@@ -12,6 +12,7 @@ import { ProductSliderComponent } from './product-slider/product-slider.componen
 import { DebuggerComponent } from './debugger/debugger.component';
 import { CollectionComponent } from './collection/collection.component';
 import { InspirationComponent } from './inspiration/inspiration.component';
+import { AllProductsComponent } from './all-products/all-products.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { InspirationComponent } from './inspiration/inspiration.component';
     ProductSliderComponent,
     DebuggerComponent,
     CollectionComponent,
-    InspirationComponent
+    InspirationComponent,
+    AllProductsComponent
   ],
   imports: [
     BrowserModule,

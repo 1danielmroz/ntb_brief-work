@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-3" *ngFor="let product_tile of products">
+        <div class="products-view">
+          <app-product-tile-view-box [product]="product_tile"></app-product-tile-view-box>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+<div class="load-more-products">
+  <button type="button" class="btn btn-outline-info"  (click)="onClickMe()">Load More Products</button>
+</div>
