@@ -1,1 +1,12 @@
-<p>collection works!</p>
+
+
+
+<div class="row collection-container">
+  <div class="column" *ngFor="let collection of collections">
+    <img src="{{collection.Pictures}}" style="object-fit: contain; width:100%;" alt="{{collection.alt}}">
+    <p>{{collection.title}}</p>
+    <hr>
+    <p>{{collection.info}}</p>
+  </div>
+
+</div>
