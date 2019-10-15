@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +14,9 @@ import { DebuggerComponent } from './debugger/debugger.component';
 import { CollectionComponent } from './collection/collection.component';
 import { InspirationComponent } from './inspiration/inspiration.component';
 import { AllProductsComponent } from './all-products/all-products.component';
+import { NtbFilterComponent } from './ntb-filter/ntb-filter.component';
+
+
 
 @NgModule({
   declarations: [
@@ -26,10 +30,12 @@ import { AllProductsComponent } from './all-products/all-products.component';
     DebuggerComponent,
     CollectionComponent,
     InspirationComponent,
-    AllProductsComponent
+    AllProductsComponent,
+    NtbFilterComponent
   ],
   imports: [
     BrowserModule,
+    NgbModule,
     AppRoutingModule
   ],
   providers: [],
